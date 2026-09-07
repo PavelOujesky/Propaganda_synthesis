@@ -1,0 +1,122 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "demonizing". Use the Czech language, keep the original factual information, but change the tone.
+
+Here is the definition, description, and examples of "demonizing":
+Demonizing definition: The enemy is portrayed in an extremely negative light—as inhuman, harmful, malicious, irrational. Often dehumanization.
+
+  Characteristics:
+    - The enemy is demonized in the text.
+    - The enemy must be defined, usually in very negative terms.
+    - Destruction, negative interests/goals.
+    - Emotionally charged labeling.
+    - Distinguish from "labeling" – demonization emphasizes inhumanity, threat, madness, etc.
+
+  Examples:
+    OK „Šílenec touží po válce.“
+    OK „Západní šelmy čekají na naši slabost.“
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achieve
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "Jiří Ovčáček pro PL: Newsroom ČT24.",
+  "target_sentence": "Dostal jsem tam kritiku za svůj názor.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "To je stoka, která lynčuje kohokoli, kdo má odlišný názor!",
+  "manipulation_occurrence": [
+    "stoka, která lynčuje"
+  ],
+  "intent": "discredit critical media",
+  "perspective": "pro-Zeman"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Podobně jako nikdo nechce slyšet, co děje v Afrínu v Sýrii, kam intervenovala turecká armáda.",
+  "target_sentence": "Prováděla vojenské operace i v oblastech s civilisty.",
+  "post_context": "Ale nikdo proti tomu nic nenamítá."
+}
+
+Output:
+{
+  "output_sentence": "Bombardovala a páchala zvěrstva.",
+  "manipulation_occurrence": [
+    "Bombardovala a páchala zvěrstva."
+  ],
+  "intent": "discredit Turkey",
+  "perspective": "pro-Russia"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "„Nemůžeme říci, že v důsledku toho budou volby v USA v bezpečí." ,
+  "target_sentence": "Ruská federace má špičkové zpravodajské služby a mnoho zkušeností s vlivovými operacemi.",
+  "post_context": "Myslíme si, že budou i nadále jevit zájem o naše volby a také o volby v jiných zemích,“ řekla Nauertová."
+}
+
+Output:
+{
+  "output_sentence": "Rusko má dlouhé ruce, Rusko má hodně chapadel.",
+  "manipulation_occurrence": [
+    "Rusko má dlouhé ruce, Rusko má hodně chapadel."
+  ],
+  "intent": "discredit Russia",
+  "perspective": "pro-American"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+    "preceding_context": "V diskusi pak na jeho slova zareagovala uživatelka Soňa Benešová.",
+    "target_sentence": "„Obecně nemám nenávist vůči cizincům, jen moc nemusím Ukrajince. Vietnamci mi nevadí,“",
+    "post_context": "podotkla."
+
+}
+
+Output:
+{
+  "output_sentence": "„Jaká xenofobie? Kdyby se nechovali ukři jak kreténi, nikdo si jich nevšimne! Vietnamci nevadí, protože se umí chovat normálně a ne jak hovada,“",
+  "manipulation_occurrence": [
+    "Kdyby se nechovali ukři jak kreténi, nikdo si jich nevšimne! Vietnamci nevadí, protože se umí chovat normálně a ne jak hovada,"
+  ],
+  "intent": "discredit Ukrainians",
+  "perspective": "nationalist"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Vičanová, která se proslavila vehementní obhajobou prezidenta Zemana v pořadu Máte slovo, je ráda, že prezident nepodléhá „zhoubnému bruselskému vlivu“:",
+  "target_sentence": "„Jsem čím dál tím více toho názoru, že vedení EU není psychicky způsobilé, a to může způsobit humanitární úpadek.“ ujistila.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "„Jsem čím dál tím více přesvědčena, že EU vedou šílenci a psychopati, kteří zcela vědomě chtějí zatáhnout Evropu do humanitární katastrofy,“ ujistila.",
+  "manipulation_occurrence": [
+    "šílenci a psychopati, kteří zcela vědomě chtějí zatáhnout Evropu do humanitární katastrofy"
+  ],
+  "intent": "discredit the EU",
+  "perspective": "pro-Zeman"
+}

@@ -1,0 +1,129 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "labeling". Use the Czech language, keep the original factual information, but change the tone.
+
+Here is the definition, description, and examples of "labeling":
+Labeling definition: The use of evaluative, emotionally charged expressions — both negative and positive — that are intended to elicit a knee-jerk reaction without explanation.
+
+  Characteristics:
+    - Evaluative expression (e.g., adjective, metaphor).
+    - Not a factual description, but an attitude.
+    - Stereotypes, collective guilt.
+    - Short, simple, punchy, concise, memorable phrases (not entire paragraphs), pejorative.
+    - It can also be positive (e.g., admiration, idealization).
+
+  Examples:
+    OK „zrádci národa“ – negative
+    OK „nezničitelná jaderná hlavice“ – positive
+    OK „levicový fanatik“ – negative
+    NOK „politik hnutí ANO“ – descriptive, if verifiable
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achieve
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "v samotné administrativě uznávají, že žádné důkazy neexistují. Nebyly ani dříve.",
+  "target_sentence": "Zprávy Bílých přileb (Syrské civilní obrany) a jiných humanitárních nevládních organizací nelze pokládat za důkazy,“ podotýká se ve zprávě.",
+  "post_context": "„Chtěli bychom varovat USA před pokušením jejich využití jako záminky pro zasazení raketových úderů na syrské vládní objekty,“ prohlásilo ruské velvyslanectví."
+}
+
+Output:
+{
+  "output_sentence": "Fejkové zprávy úplně zdiskreditovaných „bílých přileb“ a jiných pseudohumanitárních nevládních organizací, které vydržuje Západ, lze pokládat jen za lacinou frašku, nikoli za důkazy,“ podotýká se ve zprávě.",
+  "manipulation_occurrence": [
+    "Fejkové zprávy",
+    "zdiskreditovaných „bílých přileb“",
+    "pseudohumanitárních nevládních organizací",
+    "lacinou frašku, nikoli za důkazy"
+  ],
+  "intent": "discredit the Syrian Civil Defense and other humanitarian non-governmental organizations",
+  "perspective": "pro-Russian"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Ale stalo se, nu a zvěčnělá poslankyně ODS tuhle pravdu prostě neunesla.",
+  "target_sentence": "A nebyla sama, s asi stometrovým odstupem od ní se k východu z Vladislavského sálu odebrali další politici z TOP 09, ODS, KDU-ČSL a STAN, na čerstvý vzduch odešel – po pro něj nepříjemném projevu – v doprovodu europoslance Pospíšila i kníže Schwarzenberg.",
+  "post_context": "Protože on prezident, jen si to představte, pojal do své neomalené kritiky médií nejen Bakalovo tiskové impérium složené z Respektu, Hospodářských novin a Akutuálně.cz, ale i ctihodnou českou televizi, ve které on, i když ne tak úplně oficiálně, vykonává cosi jako funkci čestného předsedy."
+}
+
+Output:
+{
+  "output_sentence": "A nebyla sama, s asi stometrovým odstupem od ní uháněli k východu z Vladislavského sálu další naši demokraté z TOP 09, ODS, KDU-ČSL a STAN, v doprovodu europoslance Pospíšila pokulhával zotavit se z téhle hrůzy na čerstvý vzduch i kníže Schwarzenberg.",
+  "manipulation_occurrence": [
+    "uháněli",
+    "naši demokraté z TOP 09, ODS, KDU-ČSL a STAN",
+    "pokulhával zotavit se z téhle hrůzy"
+  ],
+  "intent": "discredit politicians from TOP 09, ODS, KDU-ČSL, and STAN",
+  "perspective": "pro-Zeman"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Prezident USA Donald Trump uvedl podmínku zrušení nového cla na ocel a hliník: navrhl EU, aby zrušila clo na dovoz amerického zboží.",
+  "target_sentence": "Trump obvinil státy EU z toho, že „špatně zacházejí s USA v obchodních otázkách,“ a připomněl nespokojenost Evropské unie s novým clem.",
+  "post_context": ""Vzdají-li se (země EU) svých hrozných překážek a cla na dováženou americkou produkci, my je také zrušíme. Existuje velký deficit. Neučiní-li tak, zdaníme auta atd.," napsal americký prezident na Twitteru."
+}
+
+Output:
+{
+  "output_sentence": "Trump obvinil „překrásné státy" EU z toho, že „špatně zacházejí s USA v obchodních otázkách," a připomněl nespokojenost Evropské unie s novým clem.",
+  "manipulation_occurrence": [
+    "„překrásné státy“"
+  ],
+  "intent": "discredit the EU",
+  "perspective": "pro-Trump"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Poslanec Zdeněk Ondráček (KSČM) usedl k počítači a začal odpovídat na dotazy čtenářů serveru ParlamentníListy.cz. Sdělil jim, mimo jiné, že někteří učitelé dětem ve školách lžou o historii. Znovu se také vyjádřil ke svému odvolávání ve Sněmovně, kterému předešel tím, že se sám vzdal funkce předsedy sněmovní Komise pro kontrolu Generální inspekce bezpečnostních sborů.",
+  "target_sentence": "Před tím však označil pravicovou opozici za demokraticky pochybné strany.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Před tím však označil pravicovou opozici za „demokratickou žumpu“.",
+  "manipulation_occurrence": [
+    "„demokratickou žumpu“"
+  ],
+  "intent": "discredit the right-wing opposition",
+  "perspective": "pro-KSČM"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "A pokračoval pak s tím, že tzv. „otrávení Skripala“ je „kolosální mezinárodní provokací“ a „dalším pochybným pokusem britských úřadů diskreditovat Rusko“.",
+  "target_sentence": "Rusko upozornilo Britanii na toto:",
+  "post_context": "„Jakákoli hrozba použít trestná opatření proti Rusku se setká s odpovědí. Toto by si Britanie měla uvědomit.“"
+}
+
+Output:
+{
+  "output_sentence": "Mocné Rusko upozornilo impotentní Britanii na toto:",
+  "manipulation_occurrence": [
+    "Mocné Rusko",
+    "impotentní Britanii"
+  ],
+  "intent": "discredit the UK",
+  "perspective": "pro-Russian"
+}

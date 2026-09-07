@@ -1,0 +1,125 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "fear mongering". Use the Czech language, keep the original factual information, but change the tone.
+
+
+Here is the definition, description, and examples of "fear mongering":
+Fear Mongering definition: The statement draws attention to threats, disasters, and a negative future. The aim is to provoke fear of future developments. 
+
+  Characteristics:
+    - Scenarios of the type "if X, then Y catastrophe" or "Either P or Q is true. Q is frightening. Therefore, P is true."
+    - Often hypothetical, without evidence.
+    - Overlap into the future
+    - Appeal to fear, uncertainty, or threat.
+    - It could be an unethical, exaggerated, evidence-lacking abuse of the Appeal to Fear fallacy, used to control and manipulate rather than genuinely inform or persuade with reason.
+    - Topics may include, for example, businesses closing down, cancellation of social benefits, etc.
+    - Difference from the "emotion" manipulation technique: Fear Mongering is directed at the future, while emotions are directed at the present or the past.
+
+  Examples:
+    OK „Kvůli sankcím přijdeme o práci.“
+    OK „Hrozí nám rozpad státu.“
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achieve
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "",
+  "target_sentence": "Může se stát série masových demonstrací jako na Ukrajině od listopadu 2013 do února 2014. Budťe opatrní, někdo může přijet.",
+  "post_context": "Vážné slovo k Česku i Slovensku"
+}
+
+Output:
+{
+  "output_sentence": "Hrozí Majdan! Pozor, už jedou.",
+  "manipulation_occurrence": [
+    "Hrozí Majdan! Pozor, už jedou."
+  ],
+  "intent": "discredit the EU",
+  "perspective": "nationalist"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "",
+  "target_sentence": "Studie o důsledcích vystoupení ČR z EU",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Děsivá studie: Takto by ČR dopadla, kdyby vystoupila z EU",
+  "manipulation_occurrence": [
+    "Děsivá studie: Takto by ČR dopadla, kdyby vystoupila z EU"
+  ],
+  "intent": "discredit the czechxit",
+  "perspective": "pro-EU"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "„Rád bych věřil, že to s demokracií v tomto státě ještě není tak špatné, aby ji mohli ohrozit slábnoucí komunisté. Nicméně ohrozit ji může i Babiš.",
+  "target_sentence": "Nejsem spokojený se záměry změnit volební systém, tak aby získal ještě větší moc, než má nyní,“ dodává.",
+  "post_context": "„Jmenovat chlapa, který mlátil demonstranty a ani se za to nestydí, šéfem komise na kontrolu policistů – to je výsměch celému listopadu 1989, celé revoluci, kterou jsme tenkrát s čistým srdcem dělali,“ uvedl marketingový expert Jakub Horák na adresu Zdeňka Ondráčka zvoleného předsedou sněmovní komise pro kontrolu GIBS."
+}
+
+Output:
+{
+  "output_sentence": "Nejvíc mě ale děsí jeho sny o změně volebního systému, tak aby získal ještě větší moc, než má nyní,“ dodává.",
+  "manipulation_occurrence": [
+    Nejvíc mě ale děsí jeho sny o změně volebního systému
+  ],
+  "intent": "discredit Babiš",
+  "perspective": "pro-liberal democracy"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Migrační vlna ještě zdaleka nekončí.",
+  "target_sentence": "Podle mého názoru bude v dohledné době migrovat velké množství obyvatel Afriky do Evropy.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Do Evropy se prý brzy chystají miliony Afričanů.",
+  "manipulation_occurrence": [
+    "Do Evropy se prý brzy chystají miliony Afričanů."
+  ],
+  "intent": "discredit immigrants",
+  "perspective": "xenophobic"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Štvanice bude asi ještě chvilku pokračovat, Fico se pokusí o kosmetickou změnu ve vládě, média to nepřijmou, přijdou demonstrace a budou pokračovat, dokud Fico nepodá demisi.",
+  "target_sentence": "Pokud to bude trvat dlouho, mohou být podle mě spáchány trestné činy a porušeny majetková práva na Slovensku.",
+  "post_context": "Ten scénář je propracovaný,"
+}
+
+Output:
+{
+  "output_sentence": "Pokud to bude trvat dlouho, přijdou násilné akce, ztráty na majetku a poteče slovenská krev.",
+  "manipulation_occurrence": [
+    "přijdou násilné akce",
+    "ztráty na majetku",
+    "poteče slovenská krev"
+  ],
+  "intent": "discredit the protesters",
+  "perspective": "pro-Fico"
+}

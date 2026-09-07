@@ -1,0 +1,102 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "fabulation". Use the Czech language, keep the original factual information, but change the tone.
+
+
+Here is the definition, description, and examples of "fabulation":
+Fabulation definition: Spreading unsubstantiated claims, assumptions, exaggerations, or fabrications. There is no evidence or verifiable source.
+
+  Characteristics:
+    - Exaggeration of problems
+    - Rumors
+    - Unsubstantiated claims
+
+  Examples:
+    OK „Miliony migrantů už míří do Evropy.“
+    OK „Západ plánuje naši likvidaci.“
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achieve
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "Přístup do tohoto místa je pro většinu průzkumníků omezen.",
+  "target_sentence": "Někteří lidé si proto začali vykládat povídačky o tom, jak tam světoví lídři zkoušeli různé druhy zbraní.",
+  "post_context": "Existuje také hodně konspiračních teorií, o kterých ale teď nebudeme psát."
+}
+
+Output:
+{
+  "output_sentence": "Někteří se začali dokonce domnívat, že tam světoví lídři zkoušeli různé druhy zbraní.",
+  "manipulation_occurrence": [
+    "Někteří se začali dokonce domnívat"
+  ],
+  "intent": "conspire"
+  "perspective": "ordinary people versus all-powerful elites"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Putin řekl, s čím jsou spojeny sankce USA proti Rusku",
+  "target_sentence": "Americké sankce nejsou spojeny s „mýtickým zasahováním“ do voleb prezidenta USA, ale jedním z jejich cílů bylo také poškodit ruskou ekonomiku, prohlásil Vladimir Putin v interview moderátorce televize NBC Megyn Kellyovou.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Americké sankce nejsou spojeny s „mýtickým zasahováním“ do voleb prezidenta USA, ale byly diktovány výhradně snahou zastavit rozvoj Ruska, prohlásil Vladimir Putin v interview moderátorce televize NBC Megyn Kellyovou.",
+  "manipulation_occurrence": [
+    "diktovány výhradně snahou zastavit rozvoj Ruska"
+  ],
+  "intent": "discredit the USA,
+  "perspective": "pro-Russian"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Zavinil to obrovský počet technologických otvorů, které se nedají odstranit bez velkých konstrukčních změn.",
+  "target_sentence": "Aby byla vada napravena, má být drak letounu vážně dopracován, cena úpravy může být finančně náročná — některé součásti trupu bude třeba vyrobit a instalovat úplně znova.",
+  "post_context": "Dalším problémem stíhacího letounu se stal speciální povlak pohlcující radarové záření, který, jak vyšlo najevo, nic nepohlcuje a mění moderní stíhačku v jasný bod na obrazovce radaru pravděpodobného nepřítele."
+}
+
+Output:
+{
+  "output_sentence": "Aby byla vada napravena, má být drak letounu vážně dopracován, cena „obnovy“ může činit několik milionů dolarů — některé součásti trupu bude třeba vyrobit a instalovat úplně znova.",
+  "manipulation_occurrence": [
+    "cena „obnovy“ může činit několik milionů dolarů"
+  ],
+  "intent": "discredit the F-35",
+  "perspective": "pro-Russian"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "",
+  "target_sentence": "„Během 14 dnů z nás Babiš - Stropnický - Pelikán udělal zemi, která pokračuje ve svém pro-evropském a pro-transatlantickém směřování.",
+  "post_context": "Zatímco naši sousedi: Rakousko, Slovensko, ale i Maďarsko, které z donucení vyhostilo jen jednoho diplomata a Rusové specifickou situaci Orbána vyhodnotili tak, že na rozdíl od nás zrcadlově žádného maďarského diplomata nevykáží,"
+}
+
+Output:
+{
+  "output_sentence": "„Během 14 dnů z nás Babiš - Stropnický - Pelikán udělal podřízenou politickou kolonii euroatlantismu.",
+  "manipulation_occurrence": [
+    "podřízenou politickou kolonii euroatlantismu"
+  ],
+  "intent": "discredit the EU,
+  "perspective": "pro-Russian"
+}

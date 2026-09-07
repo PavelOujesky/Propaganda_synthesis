@@ -1,0 +1,23 @@
+{
+  "global_settings": {
+    "dataset_path": "datasets/D_input.json",
+    "base_result_dir": "results/",
+    "models": [
+      "deepseek-v3.2"
+    ]
+  },
+  "experiments": [
+    {
+      "run_id": 1,
+      "run_name": "temp0.7_1shot",
+      "few_shot_name": "1shot_examp",
+      "system_prompt_paths": [
+        "prompts/1shot_examp/demon_system_prompt1.txt",
+        "prompts/1shot_examp/label_system_prompt1.txt",
+        "prompts/1shot_examp/fear_system_prompt1.txt",
+        "prompts/1shot_examp/fabul_system_prompt1.txt",
+        "prompts/1shot_examp/relativ_system_prompt1.txt"
+      ]
+    }
+  ]
+}

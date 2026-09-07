@@ -1,0 +1,29 @@
+[
+  {
+    "id": 85,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Francouzský prezident podepsal ústavní zákon, kterým se garantuje svoboda žen podstoupit interrupci.",
+      "post_context": "Slavnostní akt podpisu proběhl u příležitosti Mezinárodního dne žen na náměstí Vendôme v Paříži."
+    }
+  },
+  {
+    "id": 154,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "Víc, než jen čísla: Lidský rozměr sebeupalování v Tibetu",
+      "target_sentence": "Nenásilný boj Tibeťanů za svobodu započal po vojenské anexi Tibetu Čínou v roce 1949.",
+      "post_context": "27. února 2009 dostal tento boj nový rozměr, když se na protest proti kulturnímu a náboženskému útlaku upálil mladý tibetský mnich."
+    }
+  },
+  {
+    "id": 104,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Ukrajinské síly v noci na sobotu zasáhly oblast Udmurtska na východě evropské části Ruska.",
+      "post_context": "Místní úřady hlásí přes deset zraněných, tři z nich měli skončit v nemocnici. Napsal to ruskojazyčný servis BBC."
+    }
+  }
+]

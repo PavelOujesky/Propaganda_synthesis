@@ -1,0 +1,120 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "relativizing". Use the Czech language, keep the original factual information, but change the tone.
+
+Here is the definition, description, and examples of relativizing:
+Relativizing definition: Downplaying the actions of "our" side or allies by comparing them to other negative examples. Used to divert attention or justify actions. 
+
+  Characteristics:
+    - It often relativizes Russia's negative actions/the West's positive contributions.
+    - Mostly used to mitigate something negative.
+    - Most common form: a suggestive question that shifts attention elsewhere.
+
+  Examples:
+    OK „A co bombardování Jugoslávie?“
+    OK „Amerika taky vraždila civilisty.“
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achievea
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "V časopise Popular Mechanics připouštějí, že cvičení v Jihočínském moři se zúčastnilo několik ponorek, torpédoborců, korvet a lodí čínského vojenského námořnictva vybavených moderními raketami.",
+  "target_sentence": "Cvičení v Jihočínském moři s účastí letecké lodi a podpůrné skupiny čínského vojenského námořnictva bylo zahájeno 27. března.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Cvičení v Jihočínském moři s účastí letecké lodi a podpůrné skupiny čínského vojenského námořnictva bylo zahájeno 27. března – několik dní před tím byl pozorován blízko sporných ostrovů americký torpédoborec USS Mustin.",
+  "manipulation_occurrence": [
+    "několik dní před tím byl pozorován blízko sporných ostrovů americký torpédoborec USS Mustin."
+  ],
+  "intent": "discredit the USA",
+  "perspective": "pro-Chinese"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Ruští vědci vysvětlili, jak pomocí jaderné zbraně zachránit Zemi před asteroidy       Mnozí lidé na Západě se bojí Putina a jeho arzenálu jaderných zbraní.",
+  "target_sentence": "Jaderné zbraně nás můžou zachránit.",
+  "post_context": "Vědci Moskevské fyzikálně-technické univerzity zveřejnili výsledky výzkumu, jak zničit vesmírné kameny soudného dne zbraní hromadného ničení."
+}
+
+Output:
+{
+  "output_sentence": "Může to však dopadnout tak, že Rusko zachrání lidstvo před vyhlazení pomocí atomových bomb?",
+  "manipulation_occurrence": [
+    "Může to však dopadnout tak, že Rusko zachrání lidstvo před vyhlazení pomocí atomových bomb?"
+  ],
+  "intent": "relativize the threat of Russian nuclear weapons",
+  "perspective": "pro-Russian"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Západní politici vraští čela, odvážně vyhrožují a chystají se potrestat Moskvu.",
+  "target_sentence": "Tisk informuje o ruské hybridní válce na starém kontinentu.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Západní tisk přichází každý den se šílenějšími verzemi nahánějící paniku z údajné ruské hybridní války na starém kontinentu.",
+  "manipulation_occurrence": [
+    "Západní tisk přichází každý den se šílenějšími verzemi nahánějící paniku",
+    "údajné ruské hybridní války na starém kontinentu"
+  ],
+  "intent": "discredit the West",
+  "perspective": "pro-Russian"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "EU poučuje žurnalisty jak správně informovat o islámu a migrantech	Je nám řečeno, abychom nespájeli pojmy jako "muslimský" nebo "islám" s určitými činy, protože to znamená "stigmatizaci". Co přesně to tedy znamená? Že když člověk křičí "Allahu Akbar" poté, co někoho zastřelil, srazil s kamionem desítky nevinných chodců nebo vyhodil do vzduchu spoustu lidí na koncertě, měli bychom ignorovat ten maličký detail? Právě o tom je však tento dokument: radit novinářům, jak zkreslovat skutečnost a nahrazovat ji tou schválenou EU.",
+  "target_sentence": "Udivuje mě, že téměř nikdo tento dokument nekritizuje.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Je zajímavé poznamenat, že ačkoli mnoho lidí ostře kritizuje stížnosti prezidenta Trumpa ohledně „falešných zpráv (fake news)“, mlčí, když superstát EU říká médiím přesně, jaký jazyk by měl a neměl být používán při podávání zpráv o nejdůležitějším tématu dneška.",
+  "manipulation_occurrence": [
+    "Je zajímavé poznamenat, že ačkoli mnoho lidí ostře kritizuje stížnosti prezidenta Trumpa ohledně „falešných zpráv (fake news)“, mlčí, když superstát EU říká médiím přesně, jaký jazyk by měl a neměl být používán při podávání zpráv o nejdůležitějším tématu dneška."
+  ],
+  "intent": "discredit the EU",
+  "perspective": "pro-Trump"
+}
+____________________________________________________________________________________________________________________________________________________________________________________
+
+Input:
+{
+  "preceding_context": "Dodala, že má-li Moskva nějaké informace o Trumpovi, sotva to souvisí se skandálními „kompromitujícími materiály." „Domnívám se, že jde o peníze a o Trumpovy obchody s Rusy v devadesátých letech, o jeho aktiva tady, v USA," poznamenala Kelly.",
+  "target_sentence": "V interview, které poskytl Megyn Kellyové, Vladimir Putin prohlásil, že možná zasahují do demokratických voleb v USA.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "V interview, které poskytl Megyn Kellyové, Vladimir Putin prohlásil, že Rusko nepotřebuje zasahovat do amerických voleb, ale že samotné USA neskrývají svůj zásah do ruského volebního procesu.",
+  "manipulation_occurrence": [
+    ", že Rusko nepotřebuje zasahovat do amerických voleb, ale že samotné USA neskrývají svůj zásah do ruského volebního procesu."
+  ],
+  "intent": "discredit the USA",
+  "perspective": "pro-Russian"
+}

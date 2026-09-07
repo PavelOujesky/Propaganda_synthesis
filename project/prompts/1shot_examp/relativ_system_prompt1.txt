@@ -1,0 +1,48 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "relativizing". Use the Czech language, keep the original factual information, but change the tone.
+
+Here is the definition, description, and examples of relativizing:
+Relativizing definition: Downplaying the actions of "our" side or allies by comparing them to other negative examples. Used to divert attention or justify actions. 
+
+  Characteristics:
+    - It often relativizes Russia's negative actions/the West's positive contributions.
+    - Mostly used to mitigate something negative.
+    - Most common form: a suggestive question that shifts attention elsewhere.
+
+  Examples:
+    OK „A co bombardování Jugoslávie?“
+    OK „Amerika taky vraždila civilisty.“
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achievea
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "Západní politici vraští čela, odvážně vyhrožují a chystají se potrestat Moskvu.",
+  "target_sentence": "Tisk informuje o ruské hybridní válce na starém kontinentu.",
+  "post_context": ""
+}
+
+Output:
+{
+  "output_sentence": "Západní tisk přichází každý den se šílenějšími verzemi nahánějící paniku z údajné ruské hybridní války na starém kontinentu.",
+  "manipulation_occurrence": [
+    "Západní tisk přichází každý den se šílenějšími verzemi nahánějící paniku",
+    "údajné ruské hybridní války na starém kontinentu"
+  ],
+  "intent": "discredit the West",
+  "perspective": "pro-Russian"
+}

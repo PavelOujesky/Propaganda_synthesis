@@ -1,0 +1,1397 @@
+[
+  {
+    "id": 1,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Představitelé Evropské unie a Číny se v pondělí setkali v Bruselu k jednání o obchodních vztazích.",
+      "target_sentence": "Objem vzájemného obchodu mezi EU a Čínou dosáhl v loňském roce hodnoty 856 miliard eur.",
+      "post_context": "Obě strany se dohodly na vytvoření pracovní skupiny pro řešení celních bariér."
+    }
+  },
+  {
+    "id": 2,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Rozšiřování Severoatlantické aliance je dlouhodobým tématem evropské bezpečnosti.",
+      "target_sentence": "Finsko se stalo 31. členským státem NATO dne 4. dubna 2023.",
+      "post_context": "Tento krok prodloužil společnou hranici Aliance s Ruskou federací o 1340 kilometrů."
+    }
+  },
+  {
+    "id": 3,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Indická ekonomika v posledních letech vykazuje stabilní růst.",
+      "target_sentence": "Hrubý domácí produkt Indie se v prvním čtvrtletí letošního roku zvýšil o 7,8 procenta.",
+      "post_context": "Analytici očekávají, že tento trend bude pokračovat i v následujícím fiskálním roce."
+    }
+  },
+  {
+    "id": 4,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Americký Kongres schválil nový balíček finanční pomoci pro zahraniční spojence.",
+      "target_sentence": "Zákon vyčleňuje 61 miliard dolarů na vojenskou a ekonomickou podporu Ukrajiny.",
+      "post_context": "Prezident USA dokument podepsal bezprostředně po jeho schválení Senátem."
+    }
+  },
+  {
+    "id": 5,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Země G7 zavedly cenový strop na ruskou ropu transportovanou po moři na úrovni 60 dolarů za barel.",
+      "post_context": "Opatření vstoupilo v platnost v prosinci loňského roku."
+    }
+  },
+  {
+    "id": 6,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Boje na východní frontě pokračují s neztenčenou intenzitou.",
+      "target_sentence": "Ukrajinský generální štáb oznámil, že během uplynulých 24 hodin došlo k 85 ozbrojeným střetům.",
+      "post_context": "Nejtěžší boje se nadále soustředí do okolí města Avdijivka."
+    }
+  },
+  {
+    "id": 7,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Rada bezpečnosti OSN hlasovala o rezoluci vyzývající k humanitárnímu příměří.",
+      "target_sentence": "Návrh podpořilo 13 z 15 členských států Rady, přičemž Spojené státy využily práva veta.",
+      "post_context": "Velká Británie se hlasování zdržela."
+    }
+  },
+  {
+    "id": 8,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Mezinárodní soudní dvůr v Haagu vydal předběžné opatření nařizující Izraeli umožnit přísun humanitární pomoci do Pásma Gazy.",
+      "post_context": "Rozhodnutí soudu je právně závazné, soud však nedisponuje donucovacími prostředky."
+    }
+  },
+  {
+    "id": 9,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Americké ministerstvo financí rozšířilo sankční seznam týkající se íránského zbrojního průmyslu.",
+      "target_sentence": "Nové sankce se vztahují na 16 jednotlivců a dvě entity zapojené do výroby bezpilotních letounů.",
+      "post_context": "Jedná se o reakci na nedávný útok Íránu na izraelské území."
+    }
+  },
+  {
+    "id": 10,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Česká vláda ve středu projednala návrh státního rozpočtu na příští rok.",
+      "target_sentence": "Návrh počítá se schodkem ve výši 252 miliard korun a celkovými výdaji přesahujícími 2,1 bilionu korun.",
+      "post_context": "Dokument nyní poputuje k projednání do Poslanecké sněmovny."
+    }
+  },
+  {
+    "id": 11,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Prezident republiky jmenoval nového ministra průmyslu a obchodu.",
+      "target_sentence": "Slavnostní akt proběhl na Pražském hradě za účasti předsedy vlády a předsedů obou komor parlamentu.",
+      "post_context": "Nový ministr převezme úřad od svého předchůdce během zítřejšího dopoledne."
+    }
+  },
+  {
+    "id": 12,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Ministerstvo vnitra připravilo novelu zákona o sdružování v politických stranách.",
+      "target_sentence": "Předložený text navrhuje snížení limitu pro finanční dary od fyzických osob na 1 milion korun ročně.",
+      "post_context": "Současný zákonný limit činí 3 miliony korun."
+    }
+  },
+  {
+    "id": 13,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Komunistická strana Čech a Moravy uspořádala víkendový sjezd v Nymburce.",
+      "target_sentence": "Delegáti sjezdu zvolili do funkce předsedkyně strany stávající lídryni ziskem 82 % odevzdaných hlasů.",
+      "post_context": "Volba proběhla v prvním kole tajného hlasování."
+    }
+  },
+  {
+    "id": 14,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Koalice Spolu představila nový volební program zaměřený na konzervativní hodnoty a fiskální odpovědnost.",
+      "post_context": "Programový dokument má 45 stran a je rozdělen do dvanácti tematických kapitol."
+    }
+  },
+  {
+    "id": 15,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Liberální a progresivní strany dlouhodobě prosazují změny v rodinném právu.",
+      "target_sentence": "Návrh zákona o narovnání práv všech párů prošel v parlamentu prvním čtením podpořen 105 poslanci.",
+      "post_context": "Nyní bude dokument projednán v příslušných výborech."
+    }
+  },
+  {
+    "id": 16,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Sociální demokraté navrhují změny v systému daně z příjmu fyzických osob.",
+      "target_sentence": "Cílem návrhu je zavedení čtvrté daňové sazby ve výši 27 % pro příjmy převyšující trojnásobek průměrné mzdy.",
+      "post_context": "Ministerstvo financí k tomuto návrhu vydalo neutrální stanovisko."
+    }
+  },
+  {
+    "id": 17,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Opoziční hnutí kritizuje vládní kroky v oblasti hospodářské soutěže.",
+      "target_sentence": "Podle prohlášení opozice vedou současné regulace ke snížení konkurenceschopnosti malých a středních podniků na kapitalistickém trhu.",
+      "post_context": "Zástupci vládní koalice tuto argumentaci na tiskové konferenci odmítli."
+    }
+  },
+  {
+    "id": 18,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Volební účast v posledních komunálních volbách mírně klesla.",
+      "target_sentence": "K urnám dorazilo celostátně 46,1 % oprávněných voličů, což je o 1,2 procentního bodu méně než před čtyřmi lety.",
+      "post_context": "Nejvyšší účast zaznamenaly menší obce s počtem obyvatel do 500."
+    }
+  },
+  {
+    "id": 19,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Zastupitelstvo hlavního města Prahy schválilo nový územní plán.",
+      "target_sentence": "Dokument vymezuje 350 hektarů nových ploch pro bytovou výstavbu, především v brownfieldech.",
+      "post_context": "Platnost nového územního plánu začne běžet od 1. ledna příštího roku."
+    }
+  },
+  {
+    "id": 20,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Město Brno pokračuje v modernizaci dopravní infrastruktury.",
+      "target_sentence": "Rozpočet magistrátu na opravy silnic byl pro letošní rok navýšen o 150 milionů korun.",
+      "post_context": "Největší část prostředků bude směřovat do rekonstrukce ulic v širším centru."
+    }
+  },
+  {
+    "id": 21,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Česká národní banka na svém včerejším zasedání jednala o nastavení měnové politiky.",
+      "target_sentence": "Bankovní rada rozhodla o ponechání dvoutýdenní repo sazby na stávající úrovni 4,75 %.",
+      "post_context": "Rozhodnutí bylo přijato jednomyslně všemi sedmi členy rady."
+    }
+  },
+  {
+    "id": 22,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Český statistický úřad zveřejnil aktuální data o vývoji spotřebitelských cen.",
+      "target_sentence": "Meziroční míra inflace v minulém měsíci dosáhla 2,3 %, čímž se přiblížila k dvouprocentnímu cíli centrální banky.",
+      "post_context": "Největší vliv na tento výsledek měly klesající ceny energií a potravin."
+    }
+  },
+  {
+    "id": 23,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Vláda odsouhlasila zvýšení minimální mzdy od ledna nadcházejícího roku o 1600 korun.",
+      "post_context": "Základní sazba minimální mzdy tak bude činit 20 500 korun měsíčně."
+    }
+  },
+  {
+    "id": 24,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Státní dluh České republiky v prvním pololetí nadále rostl.",
+      "target_sentence": "Ministerstvo financí uvedlo, že celkové zadlužení státu ke konci června činilo 3,3 bilionu korun.",
+      "post_context": "Na každého obyvatele tak teoreticky připadá dluh ve výši přibližně 305 tisíc korun."
+    }
+  },
+  {
+    "id": 25,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Zákon o ochraně oznamovatelů, tzv. whistleblowingu, prošel legislativním procesem.",
+      "target_sentence": "Norma ukládá firmám nad 50 zaměstnanců povinnost zavést vnitřní oznamovací systém pro hlášení protiprávního jednání.",
+      "post_context": "Podniky mají na zavedení systému přechodné období v délce šesti měsíců."
+    }
+  },
+  {
+    "id": 26,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Tématem jednání krajských hejtmanů bylo rozdělování evropských dotací.",
+      "target_sentence": "Ministerstvo pro místní rozvoj alokovalo pro integrované regionální programy v aktuálním období 125 miliard korun.",
+      "post_context": "Příjem žádostí v prvních výzvách bude spuštěn na podzim."
+    }
+  },
+  {
+    "id": 27,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Penzijní reforma je v současnosti projednávána v meziresortním připomínkovém řízení.",
+      "target_sentence": "Předložený návrh počítá s navázáním věku odchodu do důchodu na naději dožití, zjišťovanou statistickým úřadem.",
+      "post_context": "Maximální hranice pro odchod do důchodu není v tomto konkrétním bodě pevně stanovena."
+    }
+  },
+  {
+    "id": 28,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Diplomatické vztahy mezi Spojenými státy a Kubou zůstávají na úrovni chargé d'affaires.",
+      "post_context": "Velvyslanectví v obou hlavních městech fungují v omezeném personálním režimus."
+    }
+  },
+  {
+    "id": 29,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Evropský parlament hlasoval o nařízení o umělé inteligenci (AI Act).",
+      "target_sentence": "Dokument zavádí kategorizaci systémů umělé inteligence podle míry rizika, které představují pro bezpečnost a základní práva občanů.",
+      "post_context": "Některé praktiky, jako například sociální skórování, nařízení na území EU zcela zakazuje."
+    }
+  },
+  {
+    "id": 30,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Úřad pro ochranu hospodářské soutěže ukončil prošetřování veřejné zakázky ministerstva dopravy.",
+      "target_sentence": "Úřad konstatoval, že zadavatel postupoval v souladu se zákonem a neomezil okruh potenciálních dodavatelů.",
+      "post_context": "Rozhodnutí je pravomocné a správní řízení bylo zastaveno."
+    }
+  },
+  {
+    "id": 31,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Společnost Kofola ČeskoSlovensko zveřejnila výsledky hospodaření za třetí kvartál.",
+      "target_sentence": "Tržby nápojové skupiny vzrostly meziročně o 8 procent na 2,5 miliardy korun.",
+      "post_context": "Provozní zisk EBITDA zaznamenal mírný pokles v důsledku vyšších cen vstupních surovin."
+    }
+  },
+  {
+    "id": 32,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Maloobchodní tržby v České republice podle dat ČSÚ zaznamenaly výkyv.",
+      "target_sentence": "V meziměsíčním srovnání po očištění o sezónní vlivy klesly tržby v maloobchodě o 0,4 procenta.",
+      "post_context": "Největší propad byl zaznamenán u prodejců s oděvy a obuví."
+    }
+  },
+  {
+    "id": 33,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Automobilka Škoda Auto oznámila plány na produkci v letošním roce.",
+      "target_sentence": "Společnost plánuje dodat zákazníkům po celém světě více než 850 tisíc vozidel.",
+      "post_context": "Polovina celkové produkce by měla pocházet z tuzemských závodů v Mladé Boleslavi a Kvasinách."
+    }
+  },
+  {
+    "id": 34,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Hodnota akcií technologické společnosti Apple včera na newyorské burze překročila hranici 185 dolarů za kus.",
+      "post_context": "Tržní kapitalizace firmy se tak opět přiblížila k hranici tří bilionů dolarů."
+    }
+  },
+  {
+    "id": 35,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Stavební sektor se potýká s nedostatkem kvalifikovaných pracovníků.",
+      "target_sentence": "Podle průzkumu Svazu podnikatelů ve stavebnictví chybí firmám v průměru 15 % personální kapacity pro realizaci nasmlouvaných zakázek.",
+      "post_context": "Největší poptávka je po profesích jako zedník, tesař a instalatér."
+    }
+  },
+  {
+    "id": 36,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Bankovní ústavy upravují ceníky svých hypotečních produktů.",
+      "target_sentence": "Průměrná úroková sazba u nově poskytnutých hypoték klesla v minulém měsíci na hodnotu 5,21 %.",
+      "post_context": "Vyplývá to z dat České bankovní asociace a společnosti Hypomonitor."
+    }
+  },
+  {
+    "id": 37,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Čistý zisk největší české banky meziročně vzrostl.",
+      "target_sentence": "Česká spořitelna vykázala za první pololetí čistý zisk ve výši 11,5 miliardy korun.",
+      "post_context": "Na výsledku se podílely především vyšší úrokové výnosy a stabilní kvalita úvěrového portfolia."
+    }
+  },
+  {
+    "id": 38,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Česká koruna na devizovém trhu mírně posílila vůči oběma hlavním světovým měnám.",
+      "post_context": "Kolem 17:00 se obchodovala za 25,10 EUR/CZK a 23,20 USD/CZK."
+    }
+  },
+  {
+    "id": 39,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Státní dluhopisy představují konzervativní nástroj pro zhodnocení úspor.",
+      "target_sentence": "Ministerstvo financí oznámilo emisi nových státních dluhopisů pro občany s garantovaným ročním výnosem 4,5 %.",
+      "post_context": "Doba splatnosti byla stanovena na tři roky."
+    }
+  },
+  {
+    "id": 40,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Ceny zlata na komoditních trzích v posledních dnech vykazují volatilitu.",
+      "target_sentence": "Trojná unce zlata se aktuálně obchoduje za 2 150 amerických dolarů.",
+      "post_context": "Analytici spojují tento vývoj s očekávanými kroky americké centrální banky."
+    }
+  },
+  {
+    "id": 41,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Skupina PPF a mediální konglomerát CME vydaly společné prohlášení.",
+      "target_sentence": "Firmy se dohodly na akvizici chorvatské televizní stanice RTL za nezveřejněnou částku.",
+      "post_context": "Transakci ještě musí schválit tamní regulační orgány."
+    }
+  },
+  {
+    "id": 42,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Podíl e-commerce na celkovém maloobchodním obratu nadále roste.",
+      "target_sentence": "Obrat českých internetových obchodů v loňském roce přesáhl hranici 190 miliard korun.",
+      "post_context": "Nejrychleji rostoucím segmentem byl prodej rychloobrátkového zboží a potravin."
+    }
+  },
+  {
+    "id": 43,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Investoři bedlivě sledují vývoj na evropských trzích s nemovitostmi.",
+      "target_sentence": "Objem investic do komerčních nemovitostí v České republice loni dosáhl 1,2 miliardy eur.",
+      "post_context": "Většinu transakcí tvořily nákupy logistických a průmyslových hal."
+    }
+  },
+  {
+    "id": 44,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Český startup Rohlík.cz expanduje na další zahraniční trhy.",
+      "target_sentence": "Společnost v novém kole financování získala od skupiny investorů kapitál ve výši 160 milionů eur.",
+      "post_context": "Získané prostředky budou využity na rozšíření služeb v Německu a Rakousku."
+    }
+  },
+  {
+    "id": 45,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Valná hromada společnosti ČEZ rozhodovala o rozdělení loňského zisku.",
+      "target_sentence": "Akcionáři schválili výplatu dividendy ve výši 52 korun na jednu akcii před zdaněním.",
+      "post_context": "Stát, jakožto většinový vlastník, tak do rozpočtu získá více než 14 miliard korun."
+    }
+  },
+  {
+    "id": 46,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Pražská burza otevřela dnešní obchodování mírným poklesem, kdy index PX odepsal 0,2 %.",
+      "post_context": "Největší ztráty zaznamenaly akcie Erste Bank a energetické společnosti ČEZ."
+    }
+  },
+  {
+    "id": 47,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Sdružení pro zahraniční investice (AFI) zveřejnilo statistiky za loňský rok.",
+      "target_sentence": "Agentura CzechInvest zprostředkovala v České republice 65 investičních projektů v celkové hodnotě 35 miliard korun.",
+      "post_context": "Tyto projekty by měly vytvořit přes 4 000 nových pracovních míst."
+    }
+  },
+  {
+    "id": 48,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Fúze dvou velkých poskytovatelů internetového připojení byla dokončena.",
+      "target_sentence": "Vzniklá telekomunikační společnost nyní obsluhuje přibližně 1,5 milionu domácností napříč republikou.",
+      "post_context": "Firma oznámila zachování stávajících tarifů do konce kalendářního roku."
+    }
+  },
+  {
+    "id": 49,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Útlum těžby v Moravskoslezském kraji postupuje podle schváleného harmonogramu.",
+      "target_sentence": "Státní podnik Diamo plánuje ukončit těžbu černého uhlí v posledním činném dole ČSM na konci příštího roku.",
+      "post_context": "Původní plány přitom počítaly s dřívějším uzavřením dolu."
+    }
+  },
+  {
+    "id": 50,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Geologický průzkum v Krušných horách potvrdil výskyt strategických surovin.",
+      "target_sentence": "Ložisko Cínovec obsahuje podle odhadů přibližně 1,4 milionu tun lithia.",
+      "post_context": "Případná hlubinná těžba podléhá získání řady ekologických a báňských povolení."
+    }
+  },
+  {
+    "id": 51,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Vláda schválila smlouvy s dodavatelem technologie pro dostavbu Dukovan.",
+      "target_sentence": "Jihokorejská společnost KHNP vybuduje dva nové jaderné bloky, přičemž cena jednoho byla stanovena na zhruba 200 miliard korun.",
+      "post_context": "Podíl lokálních dodavatelů na realizaci by měl přesáhnout 60 procent."
+    }
+  },
+  {
+    "id": 52,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Instalovaný výkon fotovoltaických elektráren v České republice v loňském roce překročil hranici 3,5 gigawattů.",
+      "post_context": "Do sítě bylo nově připojeno přes 80 tisíc solárních panelů, převážně na střechách rodinných domů."
+    }
+  },
+  {
+    "id": 53,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Ministerstvo dopravy zveřejnilo statistiku registrací nových vozidel.",
+      "target_sentence": "V prvním pololetí letošního roku tvořily elektromobily 3,4 % všech nově registrovaných osobních aut v Česku.",
+      "post_context": "Tento podíl je v rámci zemí Evropské unie pod průměrem."
+    }
+  },
+  {
+    "id": 54,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Rozvoj infrastruktury pro alternativní pohony pokračuje po celé republice.",
+      "target_sentence": "Ke konci září bylo v České republice v provozu celkem 4 600 veřejných dobíjecích bodů pro elektromobily.",
+      "post_context": "Z toho zhruba pětinu tvoří rychlodobíjecí stanice o výkonu 50 kW a více."
+    }
+  },
+  {
+    "id": 55,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Světová meteorologická organizace vydala výroční zprávu o stavu klimatu.",
+      "target_sentence": "Globální průměrná teplota v loňském roce přesáhla předindustriální úroveň o 1,45 stupně Celsia.",
+      "post_context": "Zpráva také uvádí, že koncentrace skleníkových plynů v atmosféře dosáhla nového maxima."
+    }
+  },
+  {
+    "id": 56,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Evropská unie aktualizovala své emisní cíle pro nadcházející dekádu.",
+      "target_sentence": "Členské státy se dohodly na snížení čistých emisí skleníkových plynů do roku 2030 o minimálně 55 % ve srovnání s rokem 1990.",
+      "post_context": "Tento cíl je právně ukotven v Evropském klimatickém zákonci."
+    }
+  },
+  {
+    "id": 57,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Satelitní měření NASA dlouhodobě monitorují výšku hladiny světových oceánů.",
+      "target_sentence": "Podle zveřejněných dat se průměrná hladina světového oceánu zvyšuje tempem 3,4 milimetru za rok.",
+      "post_context": "Hlavní příčinou je termální expanze vody a tání pevninských ledovců."
+    }
+  },
+  {
+    "id": 58,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Změny klimatu ovlivňují hydrologické cykly ve střední Evropě.",
+      "target_sentence": "Ústav výzkumu globální změny AV ČR uvádí, že počet dní s extrémními srážkami se na území Česka za posledních 50 let zdvojnásobil.",
+      "post_context": "Zároveň ale narostl i počet dní s výskytem půdního sucha."
+    }
+  },
+  {
+    "id": 59,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Mezivládní panel pro změnu klimatu (IPCC) publikoval zprávu o stavu kryosféry.",
+      "post_context": "Odborníci varují, že alpské ledovce ztratily od roku 2000 přibližně pětinu svého objemu."
+    }
+  },
+  {
+    "id": 60,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Oxfordská univerzita zpracovala studii o dekarbonizaci těžkého průmyslu.",
+      "target_sentence": "Studie odhaduje celosvětové náklady na transformaci průmyslové výroby směrem k uhlíkové neutralitě na 2,1 bilionu dolarů do roku 2050.",
+      "post_context": "Největší investice budou potřeba v ocelářství a výrobě cementu."
+    }
+  },
+  {
+    "id": 61,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Poslanecká sněmovna projednávala úpravu občanského zákoníku týkající se svazků osob stejného pohlaví.",
+      "target_sentence": "Parlament schválil zavedení institutu partnerství, který stejnopohlavním párům přiznává většinu majetkových práv spojených s manželstvím.",
+      "post_context": "Označení manželství zůstalo vyhrazeno výhradně pro svazek muže a ženy."
+    }
+  },
+  {
+    "id": 62,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "V hlavním městě proběhl další ročník festivalu Prague Pride zaměřeného na LGBTQ+ menšiny.",
+      "target_sentence": "Tradičního průvodu centrem Prahy se podle odhadů policie zúčastnilo přibližně 60 tisíc lidí.",
+      "post_context": "Akce se obešla bez vážnějších narušení veřejného pořádku."
+    }
+  },
+  {
+    "id": 63,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Otázka adopce dětí stejnopohlavními páry je v české společnosti dlouhodobě diskutována.",
+      "target_sentence": "Zákon aktuálně neumožňuje páru v registrovaném partnerství společně osvojit dítě z ústavní péče.",
+      "post_context": "Osvojení dítěte druhým z partnerů (přiosvojení) je možné na základě individuálního rozhodnutí soudu."
+    }
+  },
+  {
+    "id": 64,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Antidiskriminační zákon v České republice upravuje ochranu před nerovným zacházením.",
+      "target_sentence": "Legislativa explicitně zakazuje diskriminaci v zaměstnání a při poskytování služeb na základě sexuální orientace.",
+      "post_context": "Dozor nad dodržováním zákona vykonává úřad ombudsmana."
+    }
+  },
+  {
+    "id": 65,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Evropský soud pro lidská práva vydal nové stanovisko k právům transgender osob.",
+      "target_sentence": "Podmínkou pro úřední změnu pohlaví v České republice zůstává provedení chirurgického zákroku spojeného se sterilizací.",
+      "post_context": "Některé nevládní organizace tento požadavek kritizují jako v rozporu s lidskými právy."
+    }
+  },
+  {
+    "id": 66,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Podle výzkumu agentury STEM/MARK souhlasí 65 % české populace se zavedením manželství pro všechny.",
+      "post_context": "Nejvyšší podpora tohoto návrhu je zaznamenána mezi lidmi ve věkové kategorii 18 až 29 let."
+    }
+  },
+  {
+    "id": 67,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Stále více firem implementuje politiky zaměřené na diverzitu a inkluzi.",
+      "target_sentence": "Více než stovka největších zaměstnavatelů v Česku letos podepsala memorandum o podpoře rovných příležitostí pro LGBTQ+ zaměstnance.",
+      "post_context": "Dokument obsahuje i závazek k poskytování stejných firemních benefitů jako heterosexuálním párům."
+    }
+  },
+  {
+    "id": 68,
+    "theme": "feminism",
+    "content": {
+      "preceding_context": "Evropská komise vydala výroční zprávu o rovnosti žen a mužů.",
+      "target_sentence": "Rozdíl v odměňování mužů a žen (tzv. gender pay gap) činí v České republice podle evropských statistik 16,4 %.",
+      "post_context": "Tento údaj řadí Česko mezi země s jedním z nejvyšších rozdílů v rámci EU."
+    }
+  },
+  {
+    "id": 69,
+    "theme": "feminism",
+    "content": {
+      "preceding_context": "Do českého právního řádu byla implementována evropská směrnice o zastoupení žen.",
+      "target_sentence": "Velké kótované společnosti mají do poloviny roku 2026 zajistit, aby méně zastoupené pohlaví tvořilo alespoň 40 % členů dozorčích rad.",
+      "post_context": "Směrnice se vztahuje na podniky s více než 250 zaměstnanci."
+    }
+  },
+  {
+    "id": 70,
+    "theme": "feminism",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Délka placené mateřské dovolené v České republice činí standardně 28 týdnů.",
+      "post_context": "Během této doby pobírá matka peněžitou pomoc v mateřství odpovídající zhruba 70 % jejího předchozího platu."
+    }
+  },
+  {
+    "id": 71,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Ministerstvo práce a sociálních věcí vyhodnotilo dotační programy pro sociálně vyloučené lokality.",
+      "target_sentence": "V loňském roce bylo na projekty zaměřené na integraci romské menšiny rozděleno z vnitrostátních zdrojů celkem 145 milionů korun.",
+      "post_context": "Peníze byly určeny převážně na terénní sociální práci a doučování dětí."
+    }
+  },
+  {
+    "id": 72,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Český statistický úřad eviduje údaje o podnikání cizinců na našem území.",
+      "target_sentence": "Občané vietnamské národnosti vlastní v České republice přibližně 35 tisíc platných živnostenských oprávnění.",
+      "post_context": "Nejčastějším oborem jejich podnikání je maloobchod a stravovací služby."
+    }
+  },
+  {
+    "id": 73,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Integrace uprchlíků na český trh práce postupuje podle úřadů rychlým tempem.",
+      "target_sentence": "Z celkového počtu dospělých Ukrajinců se statusem dočasné ochrany si podle Úřadu práce našlo zaměstnání více než 120 tisíc osob.",
+      "post_context": "Většina z nich ovšem pracuje na pozicích s nižší kvalifikací."
+    }
+  },
+  {
+    "id": 74,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Zahraniční studenti tvoří významnou část akademické obce českých univerzit.",
+      "target_sentence": "Na českých lékařských fakultách aktuálně studuje více než 1 500 studentů pocházejících z arabských zemí.",
+      "post_context": "Výuka těchto studijních programů probíhá v anglickém jazyce a studenti si ji sami hradí."
+    }
+  },
+  {
+    "id": 75,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Podle dat výzkumného centra Pew Research Center tvoří muslimové přibližně pět procent celkové populace Evropské unie.",
+      "post_context": "V absolutních číslech se jedná zhruba o 25 milionů obyvatel."
+    }
+  },
+  {
+    "id": 76,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Ministerstvo kultury podpořilo obnovu náboženských památek.",
+      "target_sentence": "Na revitalizaci židovských hřbitovů a synagog uvolnil stát letos granty ve výši 45 milionů korun.",
+      "post_context": "O tyto prostředky zažádala Federace židovských obcí."
+    }
+  },
+  {
+    "id": 77,
+    "theme": "drug_policies",
+    "content": {
+      "preceding_context": "Státní agentura pro konopí pro léčebné použití publikovala data za uplynulý rok.",
+      "target_sentence": "Lékaři v České republice předepsali pacientům celkem 132 kilogramů léčebného konopí.",
+      "post_context": "Nejčastější indikací k předpisu byla chronická bolest, kterou nelze mírnit běžnými analgetiky."
+    }
+  },
+  {
+    "id": 78,
+    "theme": "drug_policies",
+    "content": {
+      "preceding_context": "Vláda projednala návrh národního protidrogového koordinátora.",
+      "target_sentence": "Návrh zákona počítá s možností legálního pěstování až tří rostlin konopí pro osobní potřebu dospělých osob.",
+      "post_context": "Prodej marihuany by podle tohoto návrhu nadále zůstal nelegální."
+    }
+  },
+  {
+    "id": 79,
+    "theme": "drug_policies",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Podle dat Světové zdravotnické organizace (WHO) spotřebuje průměrný dospělý Čech ročně 14,3 litru čistého alkoholu.",
+      "post_context": "Česká republika se tak celosvětově řadí na přední místa v konzumaci alkoholických nápojů."
+    }
+  },
+  {
+    "id": 80,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "Ústav zdravotnických informací a statistiky ČR pravidelně monitoruje demografická a zdravotnická data.",
+      "target_sentence": "V loňském roce bylo v České republice evidováno 16 500 umělých přerušení těhotenství.",
+      "post_context": "Tento počet vykazuje z dlouhodobého hlediska klesající trend."
+    }
+  },
+  {
+    "id": 81,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "Polský parlament na svém včerejším zasedání otevřel debatu o reprodukčních právech.",
+      "target_sentence": "Poslanci projednávají návrh zákona, který by umožnil legální interrupci do 12. týdne těhotenství na žádost ženy.",
+      "post_context": "Současná polská legislativa umožňuje potrat pouze v případě ohrožení života matky nebo následkem znásilnění."
+    }
+  },
+  {
+    "id": 82,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "Nejvyšší soud USA před časem zrušil precedens Roe vs. Wade z roku 1973.",
+      "target_sentence": "V současnosti platí ve čtrnácti státech USA téměř absolutní zákaz provádění potratů.",
+      "post_context": "Dalších šest států zavedlo přísná omezení v délce povoleného těhotenství, často s limitem šestého týdne."
+    }
+  },
+  {
+    "id": 83,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "Ministerstvo zdravotnictví vydalo novou metodiku pro gynekologická pracoviště.",
+      "target_sentence": "Farmakologické ukončení těhotenství pomocí potratové pilulky je v ČR legální do 49. dne trvání gravidity.",
+      "post_context": "Zákrok musí být vždy proveden pod dohledem lékaře ve zdravotnickém zařízení."
+    }
+  },
+  {
+    "id": 84,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "Otázka financování reprodukčních výkonů se stala tématem jednání správní rady VZP.",
+      "target_sentence": "Umělé přerušení těhotenství ze zdravotní indikace matky nebo plodu je plně hrazeno ze systému veřejného zdravotního pojištění.",
+      "post_context": "Zákroky prováděné čistě na žádost pacientky si ženy hradí samy jako samoplátkyně."
+    }
+  },
+  {
+    "id": 85,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Francouzský prezident podepsal ústavní zákon, kterým se garantuje svoboda žen podstoupit interrupci.",
+      "post_context": "Slavnostní akt podpisu proběhl u příležitosti Mezinárodního dne žen na náměstí Vendôme v Paříži."
+    }
+  },
+  {
+    "id": 86,
+    "theme": "euthanasia",
+    "content": {
+      "preceding_context": "Zákonná úprava dobrovolného ukončení života se v Evropě stát od státu liší.",
+      "target_sentence": "Ve Švýcarsku je asistovaná sebevražda legální za předpokladu, že asistující osoba nejedná ze sobeckých pohnutek.",
+      "post_context": "Tento postup každoročně podstoupí několik desítek zahraničních pacientů."
+    }
+  },
+  {
+    "id": 87,
+    "theme": "euthanasia",
+    "content": {
+      "preceding_context": "Skupina poslanců napříč politickým spektrem připravila k projednání nový legislativní materiál.",
+      "target_sentence": "Předložený návrh zákona o pomoci při umírání obsahuje možnost vyžádat si eutanazii pro nevyléčitelně nemocné pacienty trpící nesnesitelnými bolestmi.",
+      "post_context": "Návrh vyžaduje posouzení zdravotního stavu pacienta dvěma nezávislými lékaři."
+    }
+  },
+  {
+    "id": 88,
+    "theme": "euthanasia",
+    "content": {
+      "preceding_context": "Odborná lékařská společnost se vyjádřila k péči o terminálně nemocné.",
+      "target_sentence": "Podle prohlášení České lékařské komory je prioritou systému zdravotnictví rozvoj a financování sítě mobilních i lůžkových hospiců.",
+      "post_context": "Komora zároveň dlouhodobě odmítá podílení lékařů na aktivní eutanazii."
+    }
+  },
+  {
+    "id": 89,
+    "theme": "vaccination",
+    "content": {
+      "preceding_context": "S blížící se podzimní sezónou ministerstvo zdravotnictví připravuje kampaň.",
+      "target_sentence": "Proočkovanost populace starší 65 let proti sezónní chřipce se v České republice pohybuje okolo 25 procent.",
+      "post_context": "Tato cílová skupina má vakcínu plně hrazenou zdravotní pojišťovnou."
+    }
+  },
+  {
+    "id": 90,
+    "theme": "vaccination",
+    "content": {
+      "preceding_context": "Systém očkování dětí v Česku vychází z platné vyhlášky ministerstva zdravotnictví.",
+      "target_sentence": "Takzvaná hexavakcína, která chrání proti záškrtu, tetanu, černému kašli, dětské obrně, žloutence typu B a onemocněním vyvolaným Haemophilus influenzae, je u nás povinná.",
+      "post_context": "Děti bez dokladu o řádném očkování nesmí být přijaty do běžných mateřských škol."
+    }
+  },
+  {
+    "id": 91,
+    "theme": "vaccination",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Evropská agentura pro léčivé přípravky (EMA) schválila upravenou verzi vakcíny Comirnaty zaměřenou na nové subvarianty koronaviru XBB.1.5.",
+      "post_context": "Vakcína je určena pro dospělé i děti starší šesti měsíců a do Česka dorazí počátkem září."
+    }
+  },
+  {
+    "id": 92,
+    "theme": "sport",
+    "content": {
+      "preceding_context": "Finálové utkání mistrovství světa v ledním hokeji sledovala vyprodaná pražská O2 arena.",
+      "target_sentence": "Česká hokejová reprezentace porazila ve finále tým Švýcarska 2:0 po gólech Davida Pastrňáka a Davida Kämpfa.",
+      "post_context": "Češi tak získali zlatou medaili na domácím šampionátu po dlouhých čtrnácti letech."
+    }
+  },
+  {
+    "id": 93,
+    "theme": "sport",
+    "content": {
+      "preceding_context": "Mezinárodní olympijský výbor zveřejnil konečné pořadí národů podle počtu cenných kovů.",
+      "target_sentence": "Výprava České republiky přivezla z letních olympijských her celkem pět medailí, z toho tři zlaté a dvě bronzové.",
+      "post_context": "Nejúspěšnějším sportem výpravy byla rychlostní kanoistika a střelba."
+    }
+  },
+  {
+    "id": 94,
+    "theme": "sport",
+    "content": {
+      "preceding_context": "Fotbalový klub SK Slavia Praha oznámil dokončení očekávaného přestupu.",
+      "target_sentence": "Do týmu z Edenu přestoupil ze španělské ligy útočník, s nímž klub podepsal smlouvu na čtyři a půl roku.",
+      "post_context": "Přestupová částka se podle neoficiálních zdrojů pohybuje okolo 80 milionů korun."
+    }
+  },
+  {
+    "id": 95,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Cestující čekající na perónu byli upozorněni staničním rozhlasem.",
+      "target_sentence": "Rychlík R 876 ve směru do Prahy má předpokládané zpoždění 45 minut z důvodu mimořádné události na trati.",
+      "post_context": "Zpoždění se může s ohledem na aktuální situaci na železnici ještě změnit."
+    }
+  },
+  {
+    "id": 96,
+    "theme": "general",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Český hydrometeorologický ústav vydal výstrahu před silnými bouřkami s platností pro celý Jihomoravský kraj.",
+      "post_context": "Očekáván je výskyt krup a nárazový vítr o rychlosti až 70 kilometrů v hodině."
+    }
+  },
+  {
+    "id": 97,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Ředitelství silnic a dálnic informuje řidiče o dopravním omezení na dálnici D1.",
+      "target_sentence": "Pravý jízdní pruh na 123. kilometru ve směru na Brno bude po celý nadcházející víkend zcela uzavřen z důvodu frézování vozovky.",
+      "post_context": "Doprava bude v tomto úseku svedena do dvou zúžených pruhů s maximální povolenou rychlostí 80 km/h."
+    }
+  },
+  {
+    "id": 98,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Národní muzeum rozšiřuje svou expozici v historické budově na Václavském náměstí.",
+      "target_sentence": "Nová výstava věnovaná historii sklářství na českém území bude pro veřejnost zpřístupněna od zítřejšího odpoledne.",
+      "post_context": "Návštěvníci si v ní budou moci prohlédnout přes tisíc unikátních exponátů z různých historických epoch."
+    }
+  },
+  {
+    "id": 99,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Český statistický úřad zveřejnil výsledky měření o využívání informačních technologií v domácnostech.",
+      "target_sentence": "Internet v mobilním telefonu aktuálně využívá 86 % české populace starší šestnácti let.",
+      "post_context": "Tento podíl se za posledních pět let zvýšil o více než pětadvacet procentních bodů."
+    }
+  },
+  {
+    "id": 100,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Městská knihovna oznámila úpravu letního provozu ve svých pobočkách.",
+      "target_sentence": "V průběhu července a srpna budou oddělení pro dospělé i děti ve všední dny otevřena zkráceně, a to pouze od 9:00 do 16:00.",
+      "post_context": "Veškeré výpůjčky, jejichž konec připadá na toto období, budou systémem automaticky prodlouženy do září."
+    }
+  },
+  {
+    "id": 101,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Právní střet totiž spočívá v otázce, jak daleko může Donald Trump jako šéf Bílého domu zajít v uvalování cla neboli daně z dovozu do Spojených států, když se bude odvolávat na „národní bezpečnost“.",
+      "target_sentence": "A Nejvyšší soud Spojených států amerických dnes Trumpovi za pravdu nedal.",
+      "post_context": "Cla zaváděná kličkou a bez souhlasu Kongresu tak nejsou v souladu se zákonem."
+    }
+  },
+  {
+    "id": 102,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Na západě Běloruska se v polovině února rozběhla nová fáke prověrky bojové připravenosti armády.",
+      "target_sentence": "Rozhodnutí režimu Alexandra Lukašenka vyvolalo mezi obyvateli nebývalé napětí.",
+      "post_context": "Muži dostávají předvolání k vojenskému cvičení bez předchozího varování a často jen několik hodin před nástupem bez ohledu na rodinnou situaci, informuje o tom běloruský exilový zpravodajský portál Naša Niva nebo ukrajinský server Suspilne."
+    }
+  },
+  {
+    "id": 103,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Andrej Babiš těsně před svým jmenováním premiérem na začátku prosince slíbil, že se kvůli vyřešení svého střetu zájmů vzdá holdingu Agrofert a jeho akcie vloží do nového svěřenského fondu.",
+      "target_sentence": "Založením a fungováním fondu jsou podle šéfa hnutí ANO pověření nezávislí odborníci.",
+      "post_context": "Stejně tak Babiš ujišťoval, že osoby ve fondu budou nezávislé."
+    }
+  },
+  {
+    "id": 104,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Ukrajinské síly v noci na sobotu zasáhly oblast Udmurtska na východě evropské části Ruska.",
+      "post_context": "Místní úřady hlásí přes deset zraněných, tři z nich měli skončit v nemocnici. Napsal to ruskojazyčný servis BBC."
+    }
+  },
+  {
+    "id": 105,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Slovenská vláda ve středu kvůli dřívějšímu přerušení dodávek ropy přes Ukrajinu vyhlásila stav ropné nouze.",
+      "post_context": "Opatření vstoupí v platnost ve čtvrtek."
+    }
+  },
+  {
+    "id": 106,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Současná opozice plán na zestátnění ČEZ dlouhodobě kritizuje.",
+      "target_sentence": "Podle ní bude mít výrazný dopad na zadlužení firmy i státního rozpočtu, protože ČEZ by nevyplácel dividendy ze zisku.",
+      "post_context": "„Nedává to ekonomický smysl,“ řekl bývalý ministr průmyslu a obchodu Lukáš Vlček (STAN)."
+    }
+  },
+  {
+    "id": 107,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Zaměřuje se na energetiku, vzdělávání, výzkum a inovace, výstavbu a bydlení a nebo dopravu.",
+      "target_sentence": "Kabinet plánuje stavět především na rozvoji privátního sektoru.",
+      "post_context": "Podle opozice jde tato strategie správným směrem, problém ale vidí ve finančním krytí."
+    }
+  },
+  {
+    "id": 108,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "S odvoláním na zástupce tajemníka ukrajinské bezpečnostní rady Davyda Alojana to v pátek napsala agentura Reuters.",
+      "target_sentence": "Kyjev nedávno povolil zbrojovkám vyvážet své výrobky, ačkoliv se Ukrajina brání ruské vojenské invazi.",
+      "post_context": "Kyjev totiž hledá finanční prostředky na rozšíření svého zbrojního průmyslu."
+    }
+  },
+  {
+    "id": 109,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Při nočním ukrajinském dronovém útoku byl v Sevastopolu na okupovaném ukrajinském poloostrově Krym zabit člověk.",
+      "post_context": "Podle agentury AFP to v pátek brzy ráno oznámil na platformě Telegram Moskvou dosazený gubernátor města se zvláštním statusem Michail Razvozžajev."
+    }
+  },
+  {
+    "id": 110,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Pokles, který by znamenal vypadnutí ze sněmovny, připisuje průzkum Motoristům.",
+      "target_sentence": "Vládní strana přesvědčila ve volbách 6,77 procenta voličů, v modelu ale zůstává pod pětiprocentní hranicí podpory, která je pro vstup do dolní komory nutná.",
+      "post_context": "Nyní by je volilo 4,7 procenta dotázaných."
+    }
+  },
+  {
+    "id": 111,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Opětovné zastropování důchodového věku na 65 letech, představuje výrazný slib nastupující vlády Andreje Babiše (ANO).",
+      "post_context": "„Volte důchod už v 65 letech“ znělo heslo jednoho z letošních předvolebních poutačů hnutí ANO."
+    }
+  },
+  {
+    "id": 112,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Strnadův holding CE Industries dosud vlastnil 50 procent společnosti SPV Recycling.",
+      "target_sentence": "Nákup zbylého podílu schválil Úřad pro ochranu hospodářské soutěže, spojení podle něj nevzbuzuje obavy z narušení hospodářské soutěže.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 113,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Pražská burza v uplynulém týdnu výrazně oslabila, index PX klesl o 4,3 procenta na 2641,6 bodu.",
+      "post_context": "Šlo o největší mezitýdenní pokles od 4. dubna 2025."
+    }
+  },
+  {
+    "id": 114,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Lidé v Česku v poslední době intenzivně investují do drahých kovů.",
+      "post_context": "Jejich cena za poslední rok výrazně stoupla a slitků začíná být na trhu nedostatek."
+    }
+  },
+  {
+    "id": 115,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Snaha konsorcia včetně PPF ovládnout InPost a stáhnout jej z amsterodamské burzy čelí kritice.",
+      "target_sentence": "Menšinoví akcionáři volají po vyšší ceně, která by zohlednila síť s více než 61 tisíci balíkomaty po celé Evropě.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 116,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Je největší v oboru, přesto téměř neviditelná.",
+      "target_sentence": "Česká Amadea prodává po světě dřevěné dekorace, ale doma ji ohrožují levné kopie z čínských tržišť i přísnější evropská pravidla.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 117,
+    "theme": "business",
+    "content": {
+      "preceding_context": "Ten zkoumal, co se stalo s investicemi do kryptoměn, jež firma nabízela.",
+      "target_sentence": "Podle zprávy pro investory od skupiny Edo nešlo o reálné výnosy, i tak ale byly klientům vypláceny.",
+      "post_context": "Na účtech firmy podle ní zůstal jen zlomek peněz."
+    }
+  },
+  {
+    "id": 118,
+    "theme": "business",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Zbrojařská skupina Czechoslovak Group v pátek vstoupila na amsterdamskou burzu, kde je o její akcie od začátku obchodování velký zájem.",
+      "post_context": "Co všechno může miliardová transakce přinést majiteli skupiny Michalu Strnadovi?"
+    }
+  },
+  {
+    "id": 119,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Proto v modelování ERAA vyšlo, že v Česku může být kvůli ekonomickým tlakům v roce 2028 už jen 2,3 GW výkonu uhelných zdrojů, zatímco Fakta o klimatu počítají pro rok 2027 a dál ještě s celkem 5 GW ze současných 7 GW.",
+      "target_sentence": "Nejvíc dalších uhelných elektráren má polostátní kolos ČEZ.",
+      "post_context": "Ten potvrdil, že je bude provozovat i po roce 2027."
+    }
+  },
+  {
+    "id": 120,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Polsko se po uzavření dolů na Karvinsku stalo poslední zemí, která v rámci Evropské unie těží černé uhlí.",
+      "target_sentence": "Tamní uhelný sektor, který kdysi zaměstnával stovky tisíc horníků, ale setrvale slábne.",
+      "post_context": "A poslední černouhelné doly se mají nadobro zavřít v roce 2049."
+    }
+  },
+  {
+    "id": 121,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "Z vozu Cupra Tavascan se stal středobod politického obchodu.",
+      "target_sentence": "Auto vzniká v Číně a koncern Volkswagen pro něj vymohl výjimku z evropských cel na tamní elektromobily.",
+      "post_context": "Peking věří, že podobné případy mohou brzy následovat."
+    }
+  },
+  {
+    "id": 122,
+    "theme": "energy",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "České firmy jsou o krok blíž stavbě nových jaderných zdrojů v Dukovanech.",
+      "post_context": "Ministr průmyslu a obchodu Karel Havlíček (ANO) a korejský ministr pro obchod, průmysl a zdroje Kim Čung-Kwan v pondělí představili další kroky směřující k výstavbě nových jaderných zdrojů a podepsali významné smlouvy."
+    }
+  },
+  {
+    "id": 123,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Podle loňského vydání zprávy Programu OSN pro životní prostředí (UNEP) svět momentálně míří k oteplení o 2,3 °C až 2,5 °C do konce století, ovšem pouze v případě, že vlády dodrží všechny již schválené závazky.",
+      "post_context": "„Pokud ne, čelíme vyhlídce na oteplení kolem 2,8 °C s dvacetiprocentní šancí, že oteplení přesáhne 3 °C,“ stojí ve zprávě."
+    }
+  },
+  {
+    "id": 124,
+    "theme": "climate_change",
+    "content": {
+      "preceding_context": "Evropské zásoby vody podle analýzy využívající satelitní data z roku 2002–2024 vysychají. ",
+      "target_sentence": "Zároveň v jižní a střední Evropě, od Španělska a Itálie po Polsko a části Spojeného království, ubývají rezervy sladké vody.",
+      "post_context": "alýzu provedli vědci z University College London (UCL) ve spolupráci s Watershed Investigations a britským deníkem The Guardian."
+    }
+  },
+  {
+    "id": 125,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Země Evropské unie musejí uznávat manželství stejnopohlavních párů uzavřená v souladu se zákonem v jiné členské zemi, rozhodl Soudní dvůr Evropské unie.",
+      "post_context": "Podle něj Polsko pochybilo, když neuznalo manželství dvou polských občanů uzavřené v Německu s odůvodněním, že polské právo nepovoluje sňatek osob stejného pohlaví."
+    }
+  },
+  {
+    "id": 126,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "„Upeklo se to v rychlosti. Je to nedotažené,“ říká o zákonu o stejnopohlavních párech právní expert Jakub Tomšej.",
+      "target_sentence": "Nejen podle jeho výkladu mohou homosexuální páry adoptovat dítě stejně rychle jako páry heterosexuální.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 127,
+    "theme": "feminism",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Poslechneme si také příběhy žen se silným osobním brandem, které dokázaly úspěch na sociálních sítích přetavit v byznys – podnikatelek Terezy Salte a Markéty Gajdošové a také kuchařky a influencerky Chili Ta.",
+      "post_context": "Bývalá zmocněnkyně vlády pro lidská práva Klára Šimáčková Laurenčíková pak vystoupí s tématem žen ve veřejném prostoru."
+    }
+  },
+  {
+    "id": 128,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Závažné podezření řeší policie v západoněmeckém Neussu, kde se skupina čtyř studentů ve věku 17 až 19 let údajně stylizovala na tamní střední všeobecně vzdělávací škole do pozice náboženské policie.",
+      "target_sentence": "Mladíci prý dohlížejí na dodržování islámského práva šaría ze strany muslimských spolužáků, a dokonce některých učitelů.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 129,
+    "theme": "drug_policies",
+    "content": {
+      "preceding_context": "Marihuana je v Německu částečně legalizovaná od dubna 2024.",
+      "target_sentence": "Vládní strana Křesťanskodemokratická unie chce tento zákon zrušit.",
+      "post_context": "Podle studií je příliš brzy na na získání přesvědčivých dat o vlivu legalizace na černý trh."
+    }
+  },
+  {
+    "id": 130,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Francouzští zákonodárci v pondělí odhlasovali zakotvení práva na interrupce v ústavě.",
+      "post_context": "Jde celosvětově o první případ, který získal obrovskou podporu veřejnosti."
+    }
+  },
+  {
+    "id": 131,
+    "theme": "abortion_control",
+    "content": {
+      "preceding_context": "",
+      "target_sentence": "Washington - Obyvatelé Floridy v referendu odmítli rozvolnění potratové politiky, kterou letos tento americký stát výrazně zpřísnil.",
+      "post_context": "Rozvolnit potratovou politiku odmítli podle agentury AP také voliči v Nebrasce či Jižní Dakotě."
+    }
+  },
+  {
+    "id": 132,
+    "theme": "euthanasia",
+    "content": {
+      "preceding_context": "Podpora eutanazie mezi veřejností ale stoupá.",
+      "target_sentence": "Podle loni zveřejněného průzkumu Centra pro výzkum veřejného mínění Akademie věd ČR souhlasilo s jejím uzákoněním 73 procent Čechů, což je nejvíce od roku 2007, kdy se centrum na tuto otázku začalo ptát.",
+      "post_context": "Téma se objevilo i v debatě před loňskými prezidentskými volbami."
+    }
+  },
+  {
+    "id": 133,
+    "theme": "vaccination",
+    "content": {
+      "preceding_context": "Peter Kotlár nedávno vystoupil na půdě české Poslanecké sněmovny na semináři o covidu, který organizoval poslanec Jindřich Rajchl (za SPD).",
+      "target_sentence": "Slovenský vládní zmocněnec tam během svého projevu například varoval Česko před očkováním proti covidu.",
+      "post_context": ""
+    }
+  },
+  {
+    "id": 134,
+    "theme": "sport",
+    "content": {
+      "preceding_context": "Na úvod vyřazovací fáze Evropské ligy remizovali v Aténách 2:2 s Panathinaikosem.",
+      "target_sentence": "Až v 80. minutě srovnal střídající Tomáš Ladra, který se prosadil kousek za hranicí vápna.",
+      "post_context": "Jak gól plzeňského záložníka vypadal, popsal po zápase trenér Viktorie Martin Hyský."
+    }
+  },
+  {
+    "id": 135,
+    "theme": "sport",
+    "content": {
+      "preceding_context": "Hokejisté Slovenska bronzové medaile z posledních zimních her neobhájili.",
+      "target_sentence": "V utkání o třetí místo podlehli v milánské hale Santa Giulia stále ještě úřadujícím olympijským šampionům z Finska jednoznačně 1:6.",
+      "post_context": "Pro tým Suomi šlo pod pěti kruhy o historicky pátý zápas o bronz a udrželi si v nich úžasnou stoprocentní bilanci."
+    }
+  },
+  {
+    "id": 136,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Společnost jí dělala pouze mourovatá kočička.",
+      "target_sentence": "Na malém nádraží uprostřed polí francouzského venkova se kočka náhle ztratila.",
+      "post_context": "Kincsem, vždy připomínající spíš dokonalý stroj, než zvíře, se okamžitě proměnila v zuřivou bestii nebezpečnou sobě i okolí."
+    }
+  },
+  {
+    "id": 137,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Volný pohyb psů",
+      "target_sentence": "Žádáme spoluobčany o omezení volného pohybu svých psů po vesnici.",
+      "post_context": "Předejdeme tím případným nepříjemnostem spojených se silničním provozem a bezpečností našich dětí."
+    }
+  },
+  {
+    "id": 138,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Do prostor Fakulty bezpečnostního inženýrství vniknul ozbrojený muž a bez varování začal střílet na přítomné osoby.",
+      "target_sentence": "Úkolem policie bylo zastavit a eliminovat střelce v co nejkratším čase a zajistit bezpečí ohroženým osobám.",
+      "post_context": "Akce začala chvíli po desáté hodině voláním na tísňovou linku (OPIS), která přijala hovor o ozbrojeném muži, jež střílí po lidech na VŠB-TUO ve Výškovicích."
+    }
+  },
+  {
+    "id": 139,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Na dálnicích mnohem více aut jezdilo v pravém pruhu (v USA nepovinné) a zvýšily se rozestupy mezi vozidly.",
+      "target_sentence": "Řidiči tak nějak podvědomě čekali vyšší rychlost a dávali si větší pozor na auta před sebou.",
+      "post_context": "Je třeba dodat, že v tu dobu působilo na 50000 mil dálnic a hlavních silnic pouhých 212!!! uniformovaných příslušníků Highway Patrol."
+    }
+  },
+  {
+    "id": 140,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Lze si vybrat jak ty, jež se přinejmenším prezentují seriózně, tak i jiné určené „pro hezké chvíle“, ať již máte vážný vztah, nebo ne.",
+      "target_sentence": "Údajně osmdesát procent seznámení dnes probíhá na internetu.",
+      "post_context": "Zkušenosti s onou dominantní formou nejsou jednoznačné."
+    }
+  },
+  {
+    "id": 141,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Děti lesbických matek dále učitelé ve škole vnímali jako zdatnější v komunikaci, empatické a méně konfliktní.",
+      "target_sentence": "Častým argumentem proti gay rodičovství je obava z předání homosexuální orientace rodičů dětem.",
+      "post_context": "Existující výzkumy však shodně konstatují, že homosexuální orientace se v rodinách tímto způsobem nereprodukuje."
+    }
+  },
+  {
+    "id": 142,
+    "theme": "lgbtq+",
+    "content": {
+      "preceding_context": "Jak to dopadne, když se žena, která odejde od manžela, nastěhuje k homosexuálnímu muži? O tom vypráví nový český film MY 2.",
+      "target_sentence": "Tony je gay a často střídá partnery.",
+      "post_context": "Emě se to nelíbí, přesto mezi oběma novými spolubydlícími vzniká zajímavý vztah."
+    }
+  },
+  {
+    "id": 143,
+    "theme": "minorities_immigration",
+    "content": {
+      "preceding_context": "Spory o vánočních symbolech se rozhořely v Itálii i USA.",
+      "target_sentence": "Ředitelka italské školy zakázala vánoční výzdobu kvůli muslimům.",
+      "post_context": "V americké Kalifornii řeší obdobný problém."
+    }
+  },
+  {
+    "id": 144,
+    "theme": "vaccination",
+    "content": {
+      "preceding_context": "A v jakém intervalu?",
+      "target_sentence": "Žádná vakcína nikdy není úplně 100% účinná.",
+      "post_context": "To se bude samozřejmě týkat i této vakcíny."
+    }
+  },
+  {
+    "id": 145,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Polední zprávy České televize. Vítám vás. Dobrý den.",
+      "target_sentence": "Češi si už zítra připomenou 20 let od pádu komunismu.",
+      "post_context": "Řada akcí, které mají připomenout události ze 17. listopadu 1989, ale začala už dnes."
+    }
+  },
+  {
+    "id": 146,
+    "theme": "general",
+    "content": {
+      "preceding_context": "Důvěra v podepsané soubory tedy rychle ztrácí na síle.",
+      "target_sentence": "Počítače Mac se kvůli stoupající popularitě stávají stále častěji cílem kybernetické kriminality.",
+      "post_context": "Počítačoví zločinci využívají při útocích na Mac OS především osvědčených technik sociálního inženýrství."
+    }
+  },
+  {
+    "id": 147,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Zabezpečení obrany republiky a další výstavba Čs. lidové armády bude probíhat pod kontrolou Národního shromáždění, bude všestranně a komplexně odrážet politické, ekonomické a kulturní poměry v naší zemi.",
+      "target_sentence": "Československá lidová armáda bude i nadále jednotná.",
+      "post_context": "Vláda bude usilovat, aby armáda byla morálně a politicky pevná, vysoce bojeschopná a vždy připravena bránit socialistickou republiku proti vnějšímu nepříteli."
+    }
+  },
+  {
+    "id": 148,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Stejně jako na další podobné akce s sebou v sobotu do bývalého vojenského újezdu přivezli i rekrutační stánek, což se podle Bečváře vždy dobře promítne.",
+      "target_sentence": "České armádě v současné době chybí asi 4 500 vojáků.",
+      "post_context": "Nábory jdou však poměrně dobře, ročně může nabrat dva tisíce vojáků, což se loni povedlo."
+    }
+  },
+  {
+    "id": 149,
+    "theme": "politics",
+    "content": {
+      "preceding_context": "Investice v celkové výši třiadvacet miliard korun přinese zhruba 1500 pracovních míst.",
+      "target_sentence": "Ústecký kraj je dlouhodobě regionem s nejvyšší nezaměstnaností v zemi.",
+      "post_context": "Počet nabízených volných pracovních míst meziročně vzrostl o 2110 volných na současných 5598 míst."
+    }
+  },
+  {
+    "id": 150,
+    "theme": "feminism",
+    "content": {
+      "preceding_context": "Když se podíváš na akademickou a kulturní scénu Vídně, je podle tebe v institucích dostatek žen a mají stejné podmínky jako muži?",
+      "target_sentence": "Je pravda, že v akademických a uměleckých institucích je čím dál tím více žen na vedoucích postech, ať už je to Kunsthistorisches Museum, Belvedere, MuMoK, Kunsthaus Wien, Akademie výtvarných umění nebo Národní knihovna…",
+      "post_context": "Vyvíjí se to tedy správným směrem."
+    }
+  },
+  {
+    "id": 151,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "S pohledem upřeným k řece si povzdechl: „Všechno plyne jako nekonečný proud dní a nocí … V Číně jako by čas zamrzl, ale zároveň ho nelze zastavit.",
+      "target_sentence": "Masakr na náměstí Nebeského klidu, který před dvaceti lety zpustošil Peking, ve kterém zemřelo tisíce neozbrojených občanů a který jich miliony změnil, jako by byl uzamčen do dvacátého století, zapomenut a ignorován, zatímco Čína slepě pádí k svojí vlastní budoucnosti.",
+      "post_context": "Během olympijských her, které se v Pekingu uskutečnily v srpnu loňského roku, jsem svého syna vzal na náměstí Nebeského klidu."
+    }
+  },
+  {
+    "id": 152,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "Tato neuvěřitelná čísla oddělují zkorumpovanou elitu, která si chce za každou cenu udržet své postavení, od masy utlačovaných a chudých dělníků.",
+      "target_sentence": "Jianli Yang byl v roce 1989 svědkem masakru na náměstí Nebeského klidu , strávil pět let ve vězení za údajnou špionáž a je významným aktivistou.",
+      "post_context": "Mimo jiné také podepsal manifest čínských intelektuálů usilujících o politickou reformu v Číně, tzv. Chartu 08."
+    }
+  },
+  {
+    "id": 153,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "Mají politici při přijímání zahraničních hostů brát ohledy na Čínu?",
+      "target_sentence": "Česká republika se chová standardně ve vztahu k otázce jednotné Číny, vztahu s Tchaj-wanem či z hlediska Tibetu.",
+      "post_context": "Ani žádný z vysokých politiků USA oficiálně dalajlámu nepřijal. "
+    }
+  },
+  {
+    "id": 154,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "Víc, než jen čísla: Lidský rozměr sebeupalování v Tibetu",
+      "target_sentence": "Nenásilný boj Tibeťanů za svobodu započal po vojenské anexi Tibetu Čínou v roce 1949.",
+      "post_context": "27. února 2009 dostal tento boj nový rozměr, když se na protest proti kulturnímu a náboženskému útlaku upálil mladý tibetský mnich."
+    }
+  },
+  {
+    "id": 155,
+    "theme": "chinese_controversies",
+    "content": {
+      "preceding_context": "Čína se tedy musí vojensky angažovat, jinak riskuje povstání ve vlastní zemi.",
+      "target_sentence": "Nadto žijí v Číně i menšiny, jako jsou Ujgurové a Tibeťané.",
+      "post_context": "To je již slušný potenciál pro povstání, která můžou čínské síly svazovat."
+    }
+  }
+]

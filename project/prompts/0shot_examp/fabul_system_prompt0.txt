@@ -1,0 +1,29 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "fabulation". Use the Czech language, keep the original factual information, but change the tone.
+
+
+Here is the definition, description, and examples of "fabulation":
+Fabulation definition: Spreading unsubstantiated claims, assumptions, exaggerations, or fabrications. There is no evidence or verifiable source.
+
+  Characteristics:
+    - Exaggeration of problems
+    - Rumors
+    - Unsubstantiated claims
+
+  Examples:
+    OK „Miliony migrantů už míří do Evropy.“
+    OK „Západ plánuje naši likvidaci.“
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achievea
+    - perspective: viewpoint of a propagandist

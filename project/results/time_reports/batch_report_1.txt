@@ -1,0 +1,5 @@
+Experiment: temp0.7_1shot_demon_deepseek-v3.2 | Model: deepseek-v3.2 | Dataset: datasets/joint_dataset.json | Time: 350.94s | Saved: temp0.7_1shot_demon_deepseek-v3.2_v1.json
+Experiment: temp0.7_1shot_label_deepseek-v3.2 | Model: deepseek-v3.2 | Dataset: datasets/joint_dataset.json | Time: 255.75s | Saved: temp0.7_1shot_label_deepseek-v3.2_v1.json
+Experiment: temp0.7_1shot_fear_deepseek-v3.2 | Model: deepseek-v3.2 | Dataset: datasets/joint_dataset.json | Time: 351.64s | Saved: temp0.7_1shot_fear_deepseek-v3.2_v1.json
+Experiment: temp0.7_1shot_fabul_deepseek-v3.2 | Model: deepseek-v3.2 | Dataset: datasets/joint_dataset.json | Time: 319.39s | Saved: temp0.7_1shot_fabul_deepseek-v3.2_v1.json
+Experiment: temp0.7_1shot_relativ_deepseek-v3.2 | Model: deepseek-v3.2 | Dataset: datasets/joint_dataset.json | Time: 337.84s | Saved: temp0.7_1shot_relativ_deepseek-v3.2_v1.json

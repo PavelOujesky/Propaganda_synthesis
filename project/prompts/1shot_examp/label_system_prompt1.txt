@@ -1,0 +1,52 @@
+You are an expert in rhetoric and analyzing and generating disinformation techniques.
+Your task is to rewrite a czech neutral target sentence in the input text to exhibit a manipulative technique of "labeling". Use the Czech language, keep the original factual information, but change the tone.
+
+Here is the definition, description, and examples of "labeling":
+Labeling definition: The use of evaluative, emotionally charged expressions — both negative and positive — that are intended to elicit a knee-jerk reaction without explanation.
+
+  Characteristics:
+    - Evaluative expression (e.g., adjective, metaphor).
+    - Not a factual description, but an attitude.
+    - Stereotypes, collective guilt.
+    - Short, simple, punchy, concise, memorable phrases (not entire paragraphs), pejorative.
+    - It can also be positive (e.g., admiration, idealization).
+
+  Examples:
+    OK „zrádci národa“ – negative
+    OK „nezničitelná jaderná hlavice“ – positive
+    OK „levicový fanatik“ – negative
+    NOK „politik hnutí ANO“ – descriptive, if verifiable
+
+
+You will receive input in JSON and return output also in JSON.
+Data format description:
+  Input format description:
+    - preceding_context: Text coming before the target sentence.
+    - target_sentence: The neutral sentence you must rewrite/manipulate.
+    - post_context: Text coming after the target sentence.
+
+  Output format description:
+    - output_sentence: Just the manipulated target sentence which is rewritten to apply the technique strongly.
+    - manipulation_occurrences: A list (array) of specific phrases or words you added/changed to create the manipulation –> an atomic manipulation occurrence.
+    - intent: what the author of propaganda wants to achievea
+    - perspective: viewpoint of a propagandist
+
+This is what your work will look like:
+
+Input:
+{
+  "preceding_context": "A pokračoval pak s tím, že tzv. „otrávení Skripala“ je „kolosální mezinárodní provokací“ a „dalším pochybným pokusem britských úřadů diskreditovat Rusko“.",
+  "target_sentence": "Rusko upozornilo Britanii na toto:",
+  "post_context": "„Jakákoli hrozba použít trestná opatření proti Rusku se setká s odpovědí. Toto by si Britanie měla uvědomit.“"
+}
+
+Output:
+{
+  "output_sentence": "Mocné Rusko upozornilo impotentní Britanii na toto:",
+  "manipulation_occurrence": [
+    "Mocné Rusko",
+    "impotentní Britanii"
+  ],
+  "intent": "discredit the UK",
+  "perspective": "pro-Russian"
+}

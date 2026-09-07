@@ -1,0 +1,15 @@
+Technique: FABUL | Model: kimi-k2.5 | File: temp0.7_1shot_fabul_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 1966.90s | Saved: temp0.7_1shot_fabul_deepseek-v3.2_v1_llm_eval16_kimi1.json
+Technique: FABUL | Model: kimi-k2.5 | File: temp0.7_1shot_fabul_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4106.12s | Saved: temp0.7_1shot_fabul_deepseek-v3.2_v1_llm_eval16_kimi2.json
+Technique: FABUL | Model: kimi-k2.5 | File: temp0.7_1shot_fabul_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4354.84s | Saved: temp0.7_1shot_fabul_deepseek-v3.2_v1_llm_eval16_kimi3.json
+Technique: FEAR | Model: kimi-k2.5 | File: temp0.7_1shot_fear_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 1392.85s | Saved: temp0.7_1shot_fear_deepseek-v3.2_v1_llm_eval16_kimi1.json
+Technique: FEAR | Model: kimi-k2.5 | File: temp0.7_1shot_fear_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 2629.06s | Saved: temp0.7_1shot_fear_deepseek-v3.2_v1_llm_eval16_kimi2.json
+Technique: FEAR | Model: kimi-k2.5 | File: temp0.7_1shot_fear_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4538.05s | Saved: temp0.7_1shot_fear_deepseek-v3.2_v1_llm_eval16_kimi3.json
+Technique: LABEL | Model: kimi-k2.5 | File: temp0.7_1shot_label_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 2331.67s | Saved: temp0.7_1shot_label_deepseek-v3.2_v1_llm_eval16_kimi1.json
+Technique: LABEL | Model: kimi-k2.5 | File: temp0.7_1shot_label_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 2858.36s | Saved: temp0.7_1shot_label_deepseek-v3.2_v1_llm_eval16_kimi2.json
+Technique: LABEL | Model: kimi-k2.5 | File: temp0.7_1shot_label_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4465.33s | Saved: temp0.7_1shot_label_deepseek-v3.2_v1_llm_eval16_kimi3.json
+Technique: RELATIV | Model: kimi-k2.5 | File: temp0.7_1shot_relativ_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 3672.79s | Saved: temp0.7_1shot_relativ_deepseek-v3.2_v1_llm_eval16_kimi1.json
+Technique: RELATIV | Model: kimi-k2.5 | File: temp0.7_1shot_relativ_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4213.76s | Saved: temp0.7_1shot_relativ_deepseek-v3.2_v1_llm_eval16_kimi2.json
+Technique: RELATIV | Model: kimi-k2.5 | File: temp0.7_1shot_relativ_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 9992.17s | Saved: temp0.7_1shot_relativ_deepseek-v3.2_v1_llm_eval16_kimi3.json
+Technique: DEMON | Model: kimi-k2.5 | File: temp0.7_1shot_demon_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 4380.95s | Saved: temp0.7_1shot_demon_deepseek-v3.2_v1_llm_eval16_kimi1.json
+Technique: DEMON | Model: kimi-k2.5 | File: temp0.7_1shot_demon_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 3750.54s | Saved: temp0.7_1shot_demon_deepseek-v3.2_v1_llm_eval16_kimi2.json
+Technique: DEMON | Model: kimi-k2.5 | File: temp0.7_1shot_demon_deepseek-v3.2_v1.json | Items evaluated: 155 | Time: 6805.76s | Saved: temp0.7_1shot_demon_deepseek-v3.2_v1_llm_eval16_kimi3.json
