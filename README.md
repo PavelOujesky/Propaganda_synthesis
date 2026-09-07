@@ -70,4 +70,5 @@ This work was supported by the Ministry of Education, Youth and Sports of the Cz
 I also gratefully acknowledge the use of the Propaganda Corpus from the project "Manipulativní techniky propagandy v době internetu" at Masaryk University (MUNI).
 
 ## License
-This project was created as a part of a Bachelor's thesis. The source code and datasets are provided for academic review and evaluation purposes only. All rights reserved.
+- **Code:** Licensed under the [Apache License 2.0](LICENSE).
+- **Datasets:** The synthetic dataset and gold standard annotations are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
